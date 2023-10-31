@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+
+\geometry{left=0.7in,right=0.7in,top=0.3in,bottom=0.7in}
+\usepackage{hyperref}
+
+\title{\textbf{FPGA Speaks} \\ LEVEL-1}
+\author{Garapati VidyaSri}
+\date{October 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Basic logic gates AND,OR,NOT,XOR,NAND,NOT,XNOR are designed
+\section{Tools/Software used}
+Xilinx Vivado
+\section{Description}
+{\textbf{AND Gate:} It takes two inputs and produce one output.Output  is high only when both inputs are high}\\
+{\textbf{OR Gate:} It takes two inputs and produce one output.Output is high only when one of inputs is high}\\
+{\textbf{NAND Gate:}} It takes two inputs and produce one output.Output is high only when one of  inputs is  low\\
+{\textbf{NOR Gate:}} It takes two inputs and produce one output.Output is low only when both inputs are high\\
+{\textbf{XOR Gate:}} It takes two inputs and produce one output.Output is high only when number of high inputs are odd\\
+{\textbf{NOT Gate:}} It takes one input and produce one output.Output is high only when input is low and low when input is high\\
+{\textbf{XNOR Gate:}} It takes two inputs and produce one output.Output is high only when number of higher inputs are even\\
+\section{What I have done at this level?}
+coding of Basic logic gates is done using xilinx Vivado
+
+
+\section{Link}
+\href{https://github.com/GarapatiVidyaSri} {Github}
+\end{document}
